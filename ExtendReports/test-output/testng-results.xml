@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-11T09:10:05 BRT" name="Default suite" finished-at="2023-11-11T09:10:18 BRT" duration-ms="13063">
+    <groups>
+    </groups>
+    <test started-at="2023-11-11T09:10:05 BRT" name="Default test" finished-at="2023-11-11T09:10:18 BRT" duration-ms="13063">
+      <class name="lessonrahuludemy.ExtendReports.ExtendReportDemo">
+        <test-method is-config="true" signature="confing()[pri:0, instance:lessonrahuludemy.ExtendReports.ExtendReportDemo@689604d9]" started-at="2023-11-11T09:10:05 BRT" name="confing" finished-at="2023-11-11T09:10:06 BRT" duration-ms="451" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confing -->
+        <test-method signature="initialDemo()[pri:0, instance:lessonrahuludemy.ExtendReports.ExtendReportDemo@689604d9]" started-at="2023-11-11T09:10:06 BRT" name="initialDemo" finished-at="2023-11-11T09:10:18 BRT" duration-ms="12526" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+      </class> <!-- lessonrahuludemy.ExtendReports.ExtendReportDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
