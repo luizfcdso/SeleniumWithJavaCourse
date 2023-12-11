@@ -6,14 +6,16 @@ import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.v119.emulation.Emulation;
 
 public class MobileEmulatorTest {
+	
+	static ChromeDriver driver;
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 
 		
-		System.setProperty("webdriver.chrome.driver", "C:\\chromedriver.exe");
 		
-		ChromeDriver driver = new ChromeDriver();
+		
+		driver = new ChromeDriver();
 		DevTools devTools = driver.getDevTools();
 		
 		devTools.createSession();
