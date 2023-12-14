@@ -1,4 +1,4 @@
-package MoreAboutSelenium;
+package moreAboutSelenium;
 
 import java.awt.Robot;
 import java.awt.Toolkit;

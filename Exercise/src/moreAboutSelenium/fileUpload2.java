@@ -1,4 +1,4 @@
-package MoreAboutSelenium;
+package moreAboutSelenium;
 
 import java.io.File;
 import java.io.IOException;
