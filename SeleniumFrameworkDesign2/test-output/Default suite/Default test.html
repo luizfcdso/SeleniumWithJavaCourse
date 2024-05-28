@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
 </tr><tr>
-<td>Started on:</td><td>Sun Nov 19 17:03:17 BRT 2023</td>
+<td>Started on:</td><td>Sat Mar 09 19:55:25 BRT 2024</td>
 </tr>
-<tr><td>Total time:</td><td>22 seconds (22247 ms)</td>
+<tr><td>Total time:</td><td>13 seconds (13013 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,8 +67,8 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-passed'>
-<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
@@ -76,8 +76,33 @@ function toggleAllBoxes() {
 </tr>
 <tr>
 <td title='cucumber.TestNGTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumber.TestNGTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Title of your scenario outline", "Purchase the order from Ecommerce WebSite"</td>
-<td></td>
-<td>21</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.cssSelector: .card-body button:last-of-type
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at lessonrahuludemy.ProductCatalogue.addProductToCart(ProductCatalogue.java:56)
+	at lessonrahuludemy.stepDefination.StepDefinationImplamantation.add_product_to_cart(StepDefinationImplamantation.java:44)
+	at ?.I add the product ADIDAS ORIGINAL to Cart(file:///C:/Users/Luiz%20Fernando/eclipse-workspace/SeleniumFrameworkDesign2/src/test/java/cucumber/SubmitOrder.feature:13)
+</pre></div><a href='#' onClick='toggleBox("stack-trace491762195", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace491762195'><pre>org.openqa.selenium.NoSuchElementException: Unable to find element with locator By.cssSelector: .card-body button:last-of-type
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.8&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:168)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
+	at org.openqa.selenium.remote.RemoteWebElement.findElement(RemoteWebElement.java:212)
+	at lessonrahuludemy.ProductCatalogue.addProductToCart(ProductCatalogue.java:56)
+	at lessonrahuludemy.stepDefination.StepDefinationImplamantation.add_product_to_cart(StepDefinationImplamantation.java:44)
+	at ?.I add the product ADIDAS ORIGINAL to Cart(file:///C:/Users/Luiz%20Fernando/eclipse-workspace/SeleniumFrameworkDesign2/src/test/java/cucumber/SubmitOrder.feature:13)
+</pre></div></td>
+<td>12</td>
 <td>cucumber.TestNGTestRunner@4ec4f3a0</td></tr>
 </table><p>
 </body>

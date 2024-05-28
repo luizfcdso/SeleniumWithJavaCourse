@@ -20,6 +20,21 @@
 
   <dependencies>
 	  
+	  <dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-testng</artifactId>
+    <version>7.14.0</version>
+</dependency>
+
+<dependency>
+    <groupId>io.cucumber</groupId>
+    <artifactId>cucumber-java</artifactId>
+    <version>7.14.0</version>
+</dependency>
+ 
+        
+  
+	  
 	   <dependency>
     <groupId>org.seleniumhq.selenium</groupId>
     <artifactId>selenium-java</artifactId>
@@ -42,6 +57,16 @@
     <dependency>
     	<groupId>MavenProject</groupId>
     	<artifactId>Project</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+    	<groupId>Exercise</groupId>
+    	<artifactId>Exercise</artifactId>
+    	<version>0.0.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+    	<groupId>lessonrahuludemy</groupId>
+    	<artifactId>SeleniumFrameworkDesign2</artifactId>
     	<version>0.0.1-SNAPSHOT</version>
     </dependency>
   </dependencies>

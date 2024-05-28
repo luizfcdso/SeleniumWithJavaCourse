@@ -10,6 +10,6 @@ Feature: Error validation
     Then "Incorrect email or password." is showing
 
     Examples: 
-      | username  						| password | 
+      | username  						| password |
       | luizxtcosta@gmail.com | Test123  |
      
