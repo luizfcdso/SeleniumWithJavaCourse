@@ -45,6 +45,9 @@ public class GreenKart {
 		
 		String potatoPrice = "";
 		String tomatoPrice = "";
+		String tomato = "";
+		String potato = "";
+
 		
 		for(String handle : allTabs) {
 			
@@ -95,12 +98,14 @@ public class GreenKart {
 					
 					if (productName.equals("Tomato")) {
 						
+						tomato = productName;
 						tomatoPrice = priceDiscount;
 						
 						System.out.println(productName + " tem o preço com disconto: " + tomatoPrice);
 
 					} if (productName.equals("Potato")){
 						
+						potato = productName;
 						potatoPrice = priceDiscount;
 						
 						System.out.println(productName + " tem o preço com disconto: " + potatoPrice);
@@ -114,6 +119,9 @@ public class GreenKart {
 			}
 		}
 		System.out.println("********************************************" + potatoPrice + "****************************************************" + tomatoPrice + "******************************************************");
+		
+		
+		
 		
 		
 		//driver.switchTo().window(parentTab);
